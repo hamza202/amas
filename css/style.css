@@ -13218,7 +13218,7 @@ img.lazy-image.loaded {
     background-color: #222429; border-color: #222429;
 }
 .form-group .ui-button .ui-icon:before{
-    color :#fff
+    color :#222
 }
 .ui-widget.ui-widget-content{
     background: #2a2c31;
@@ -24153,4 +24153,32 @@ img.lazy-image.loaded {
 .inner-box:hover img{
     filter: invert(67%) sepia(50%) saturate(13%) hue-rotate(73deg) brightness(17%) contrast(93%);
 }
+.product-details__price{
+    color: #ff2525;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
 
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+.form-check-input:checked{
+    background-color: #727479;
+    border-color: #727479;
+}
+.form-check-input:focus{
+    box-shadow: 0 0 0 0.25rem rgba(103, 104, 109, 0.2);
+}
+.form-check-inline{
+    display: inline-flex;
+    align-items: center;
+}
+.form-check-inline .form-check-input{
+    margin-inline-end: 5px;
+    margin-bottom: 3px;
+}
